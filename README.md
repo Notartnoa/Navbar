@@ -1,1 +1,1 @@
-Navigation Bar (Active dan Hover)
+Navigation Bar (Active dan Hover Underline)
