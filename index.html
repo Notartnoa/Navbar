@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation Bar with Hover Underline/title>
+  <style>
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      background-color: #f0f0f0;
+      font-size: 18px;
+    }
+
+    nav ul li {
+      margin: 0;
+    }
+
+    nav ul li a {
+      display: block;
+      padding: 16px 24px;
+      text-decoration: none;
+      color: white;
+      background-color: #914bc9;
+      border-bottom: 3px solid transparent;
+      transition: all 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      background-color: #914bc9;
+      border-bottom: 3px solid #3e0869;
+    }
+
+    nav ul li a.active {
+      background-color: #914bc9;
+      border-bottom: 3px solid #fff;
+    }
+
+    nav ul li:nth-child(2) a,
+    nav ul li:nth-child(3) a,
+    nav ul li:nth-child(4) a {
+      background-color: #f0f0f0;
+      color: #333;
+    }
+
+    nav ul li a:not(.active):hover {
+      background-color: #6212a3;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">Service</a></li>
+      <li><a href="#">Project</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </nav>
+
+</body>
+
+</html>
